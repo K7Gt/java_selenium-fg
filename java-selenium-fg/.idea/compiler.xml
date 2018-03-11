@@ -4,6 +4,8 @@
     <bytecodeTargetLevel>
       <module name="java-selenium_main" target="1.8" />
       <module name="java-selenium_test" target="1.8" />
+      <module name="litecart_main" target="1.8" />
+      <module name="litecart_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

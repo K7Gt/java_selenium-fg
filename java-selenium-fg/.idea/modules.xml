@@ -5,6 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-selenium.iml" filepath="$PROJECT_DIR$/.idea/modules/java-selenium.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-selenium_main.iml" filepath="$PROJECT_DIR$/.idea/modules/java-selenium_main.iml" group="java-selenium" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-selenium_test.iml" filepath="$PROJECT_DIR$/.idea/modules/java-selenium_test.iml" group="java-selenium" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/litecart.iml" filepath="$PROJECT_DIR$/.idea/modules/litecart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/litecart_main.iml" filepath="$PROJECT_DIR$/.idea/modules/litecart_main.iml" group="litecart" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/litecart_test.iml" filepath="$PROJECT_DIR$/.idea/modules/litecart_test.iml" group="litecart" />
     </modules>
   </component>
 </project>
