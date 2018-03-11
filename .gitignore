@@ -15,6 +15,4 @@ gradle-app.setting
 .idea/workspace.xml
 *.log
 
-# Gradle:
-.idea/**/gradle.xml
-.idea/**/libraries
+
