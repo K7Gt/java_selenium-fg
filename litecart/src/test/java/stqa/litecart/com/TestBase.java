@@ -24,7 +24,6 @@ public class TestBase {
         driver.manage().window().maximize();
 //        System.out.println(((HasCapabilities) driver).getCapabilities());
         wait = new WebDriverWait(driver,10);
-        driver.get("http://localhost/litecart/admin");
     }
 
     @After

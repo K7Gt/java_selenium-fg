@@ -10,6 +10,7 @@ public class AdminMenuTest extends TestBase {
 
     @Before
     public  void precondtions() {
+        driver.get("http://localhost/litecart/admin");
         login();
     }
 
