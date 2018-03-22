@@ -11,8 +11,8 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class TestBase {
-    WebDriver driver;
-    private WebDriverWait wait;
+    static WebDriver driver;
+    private static WebDriverWait wait;
 
     @Before
     public void start(){
@@ -27,12 +27,12 @@ public class TestBase {
     }
 
     @After
-    public void stop(){
+    public  void stop(){
         driver.quit();
         driver = null;
     }
 
-    protected void login() {
+    protected  void login() {
         driver.findElement(By.name("username")).sendKeys("admin");
         driver.findElement(By.name("password")).sendKeys("admin");
         driver.findElement(By.name("login")).click();

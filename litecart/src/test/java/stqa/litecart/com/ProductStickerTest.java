@@ -20,7 +20,7 @@ public class ProductStickerTest extends TestBase {
     @Test
     public void testProductSticker(){
         List<WebElement> products = driver.findElements(By.cssSelector("div.content li.product"));
-        
+
         for (WebElement el:products) {
             List<WebElement> listOfStickers = el.findElements(By.cssSelector("a:link  div.image-wrapper div.sticker"));
             Assert.assertEquals(1,listOfStickers.size());
