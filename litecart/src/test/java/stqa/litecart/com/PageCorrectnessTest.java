@@ -21,7 +21,7 @@ public class PageCorrectnessTest{
 
     @BeforeClass
     public static void start(){
-        driver =  new InternetExplorerDriver();
+        driver =  new ChromeDriver();
         driver.manage().window().maximize();
         wait = new WebDriverWait(driver,10);
     }
@@ -65,39 +65,52 @@ public class PageCorrectnessTest{
 
 
     @Test
-    public void testProductColorsDecoratesSizeComparing(){
+    public  void testCommonPriceColorsDecorate(){
         String mainPagePriceColor = driver.findElement(By.cssSelector("div#box-campaigns div.price-wrapper s")).getCssValue("color");
         String mainPagePriceDecorate = driver.findElement(By.cssSelector("div#box-campaigns div.price-wrapper s")).getCssValue("text-decoration-line");
-        String mainPagePriceFontSize = driver.findElement(By.cssSelector("div#box-campaigns div.price-wrapper s")).getCssValue("font-size");
 
         Assert.assertTrue(isGray(getColorsSet(mainPagePriceColor)));
         Assert.assertEquals("line-through",mainPagePriceDecorate);
-
-
-        String mainPageSalesPriceColor = driver.findElement(By.cssSelector("div#box-campaigns div.price-wrapper strong")).getCssValue("color");
-        String mainPageSalesPriceWeight = driver.findElement(By.cssSelector("div#box-campaigns div.price-wrapper strong")).getCssValue("font-weight");
-        String mainPageSalesPriceFontSize = driver.findElement(By.cssSelector("div#box-campaigns div.price-wrapper strong")).getCssValue("font-size");
-
-        Assert.assertTrue(isRed(getColorsSet(mainPageSalesPriceColor)));
-        Assert.assertTrue(isBold(mainPageSalesPriceWeight));
-
-        Assert.assertTrue((fontSize(mainPagePriceFontSize) < fontSize(mainPageSalesPriceFontSize)));
 
         driver.findElement(By.cssSelector("div#box-campaigns a:first-child")).click();
 
         String productPagePriceColor = driver.findElement(By.cssSelector("div#box-product div.price-wrapper s")).getCssValue("color");
         String productPagePriceDecorate = driver.findElement(By.cssSelector("div#box-product div.price-wrapper s")).getCssValue("text-decoration-line");
-        String productPagePriceFontSize = driver.findElement(By.cssSelector("div#box-product div.price-wrapper s")).getCssValue("font-size");
 
         Assert.assertTrue(isGray(getColorsSet(productPagePriceColor)));
         Assert.assertEquals("line-through",productPagePriceDecorate);
+    }
+
+    @Test
+    public  void testSalesPriceColorsDecorate(){
+
+        String mainPageSalesPriceColor = driver.findElement(By.cssSelector("div#box-campaigns div.price-wrapper strong")).getCssValue("color");
+        String mainPageSalesPriceWeight = driver.findElement(By.cssSelector("div#box-campaigns div.price-wrapper strong")).getCssValue("font-weight");
+
+        Assert.assertTrue(isRed(getColorsSet(mainPageSalesPriceColor)));
+        Assert.assertTrue(isBold(mainPageSalesPriceWeight));
+
+        driver.findElement(By.cssSelector("div#box-campaigns a:first-child")).click();
 
         String productPageSalesPrice = driver.findElement(By.cssSelector("div#box-product div.price-wrapper strong")).getCssValue("color");
         String productPageSalesWeight = driver.findElement(By.cssSelector("div#box-product div.price-wrapper strong")).getCssValue("font-weight");
-        String productPageSalesFontSize = driver.findElement(By.cssSelector("div#box-product div.price-wrapper strong")).getCssValue("font-size");
 
         Assert.assertTrue(isRed(getColorsSet(productPageSalesPrice)));
         Assert.assertTrue(isBold(productPageSalesWeight));
+
+    }
+
+    @Test
+    public void testCommonSalesPriceSize(){
+        String mainPagePriceFontSize = driver.findElement(By.cssSelector("div#box-campaigns div.price-wrapper s")).getCssValue("font-size");
+        String mainPageSalesPriceFontSize = driver.findElement(By.cssSelector("div#box-campaigns div.price-wrapper strong")).getCssValue("font-size");
+
+        Assert.assertTrue((fontSize(mainPagePriceFontSize) < fontSize(mainPageSalesPriceFontSize)));
+
+        driver.findElement(By.cssSelector("div#box-campaigns a:first-child")).click();
+
+        String productPagePriceFontSize = driver.findElement(By.cssSelector("div#box-product div.price-wrapper s")).getCssValue("font-size");
+        String productPageSalesFontSize = driver.findElement(By.cssSelector("div#box-product div.price-wrapper strong")).getCssValue("font-size");
 
         Assert.assertTrue((fontSize(productPagePriceFontSize) < fontSize(productPageSalesFontSize)));
 
