@@ -1,13 +1,23 @@
+import java.io.File;
+import java.text.DateFormat;
 import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Date;
+import java.util.GregorianCalendar;
 
 public class Main {
 
     public static void main(String[] args){
 
-        SimpleDateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss");
+        Date date; // your date
+        Calendar cal = Calendar.getInstance();
+        date = cal.getTime();
+        cal.setTime(date);
+        int year = cal.get(Calendar.YEAR);
+        int month = cal.get(Calendar.MONTH);
+        int day = cal.get(Calendar.DAY_OF_MONTH);
 
-        String string  = dateFormat.format(new Date()).replaceAll("[- :]","");
-        System.out.println(string);
+
+
     }
 }
