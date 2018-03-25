@@ -1,4 +1,4 @@
-package stqa.litecart.com;
+package stqa.litecart.com.Tests;
 
 import org.junit.Assert;
 import org.junit.Before;
@@ -12,14 +12,14 @@ public class ProductStickerTest extends TestBase {
 
     @Before
     public void preconditions(){
-        driver.get("http://localhost/litecart/");
+        app.getNavigationHelper().gotoShopMainPage();
 
     }
 
 
     @Test
     public void testProductSticker(){
-        List<WebElement> products = driver.findElements(By.cssSelector("div.content li.product"));
+        List<WebElement> products = app.getHelperBase().getListOfElements(By.cssSelector("div.content li.product"));
 
         for (WebElement el:products) {
             List<WebElement> listOfStickers = el.findElements(By.cssSelector("a:link  div.image-wrapper div.sticker"));
