@@ -1,13 +1,17 @@
 package stqa.litecart.com.Appmanager;
 
 import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
+
+import static org.openqa.selenium.support.ui.ExpectedConditions.not;
 
 public class HelperBase {
     WebDriver driver;
@@ -53,6 +57,15 @@ public class HelperBase {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         new Select(driver.findElement(locator)).selectByVisibleText(option);
 
+    }
+
+    public void selectNthElementInPicklist(By locator, int position){
+        Select picklist = new Select(driver.findElement(locator));
+        picklist.selectByIndex(position);
+    }
+
+    public void waitUntilTextChanged(By locator, String text){
+        new WebDriverWait(driver, 5).until(not(ExpectedConditions.textToBePresentInElementLocated(locator,text)));
     }
 
     public void type(String text, By locator) {
@@ -115,5 +128,12 @@ public class HelperBase {
             }
         }
 
+    }
+    public void waitAndClick(By locator){
+        new WebDriverWait(driver, 5).until(ExpectedConditions.elementToBeClickable(locator)).click();
+    }
+
+    public void stalenessWaitOf(WebElement element){
+        new WebDriverWait(driver,5).until(ExpectedConditions.stalenessOf(element));
     }
 }
