@@ -1,6 +1,7 @@
 package stqa.litecart.com.Appmanager;
 
 import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -9,6 +10,7 @@ import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
+import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 import static org.openqa.selenium.support.ui.ExpectedConditions.not;
@@ -135,5 +137,29 @@ public class HelperBase {
 
     public void stalenessWaitOf(WebElement element){
         new WebDriverWait(driver,5).until(ExpectedConditions.stalenessOf(element));
+    }
+
+
+
+    public ExpectedCondition<String> anyWindowOtherThan(Set<String> oldWindows){
+        return new ExpectedCondition<String>() {
+            public String apply(WebDriver driver) {
+                Set<String> handles = driver.getWindowHandles();
+                handles.removeAll(oldWindows);
+                return handles.size() > 0 ? handles.iterator().next():null;
+            }
+        };
+
+    }
+
+    public void openWindow(WebElement element) {
+        String originalWindow = driver.getWindowHandle();
+        Set<String> existWindows = driver.getWindowHandles();
+        element.click();
+        String newWindow =  new WebDriverWait(driver,5).until(anyWindowOtherThan(existWindows));
+        driver.switchTo().window(newWindow);
+        System.out.println(driver.getTitle());
+        driver.close();
+        driver.switchTo().window(originalWindow);
     }
 }

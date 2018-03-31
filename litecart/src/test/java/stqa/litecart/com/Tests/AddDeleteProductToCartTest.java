@@ -18,5 +18,4 @@ public class AddDeleteProductToCartTest extends TestBase {
         app.getShopPageHelper().removeAllProducts(By.cssSelector("ul.shortcuts li"));
     }
 
-
 }

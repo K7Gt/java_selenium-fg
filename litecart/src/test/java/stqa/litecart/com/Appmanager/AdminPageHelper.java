@@ -4,11 +4,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import stqa.litecart.com.Model.Product;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
+import java.util.Set;
 
 public class AdminPageHelper extends HelperBase{
 
@@ -71,7 +72,7 @@ public class AdminPageHelper extends HelperBase{
     }
 
     public void fillGeneralTab(Product product) {
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        setImplicityWait(10);
         isCheck(By.cssSelector("input[name= status]:first-child"), By.cssSelector("input[name= status]:last-child"),product.isGeneralStatus());
         type(product.getGeneralName(),By.cssSelector("span.input-wrapper input[name='name[en]'"));
         type(product.getGeneralCode(),By.cssSelector("input[name=code"));
@@ -87,4 +88,18 @@ public class AdminPageHelper extends HelperBase{
     }
 
 
+    public void gotoCountriesTab() {
+        driver.get("http://localhost/litecart/admin/?app=countries&doc=countries");
+    }
+
+    public void gotoAddNewCountriesPage() {
+        click(By.cssSelector("a.button"));
+    }
+
+    public void openAllLinks(List<WebElement> list){
+        for (WebElement el : list
+                ) {
+            openWindow(el);
+        }
+    }
 }
