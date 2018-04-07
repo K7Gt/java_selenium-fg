@@ -1,19 +1,17 @@
 package stqa.litecart.com.Appmanager;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import stqa.litecart.com.Model.Product;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Set;
 
 public class AdminPageHelper extends HelperBase{
 
-    public AdminPageHelper(WebDriver driver) {
+    public AdminPageHelper(EventFiringWebDriver driver) {
         super(driver);
     }
 
@@ -101,5 +99,13 @@ public class AdminPageHelper extends HelperBase{
                 ) {
             openWindow(el);
         }
+    }
+
+    public List<WebElement> productList(By locator){
+        List<WebElement> products = getListOfElements(locator);
+        products.remove(0);
+        products.remove(0);
+        products.remove(0);
+        return products;
     }
 }

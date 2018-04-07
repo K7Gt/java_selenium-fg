@@ -1,14 +1,14 @@
 package stqa.litecart.com.Appmanager;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
 import stqa.litecart.com.Model.User;
 
 public class ShopPageHelper extends HelperBase {
 
 
-    public ShopPageHelper(WebDriver driver) {
+    public ShopPageHelper(EventFiringWebDriver driver) {
         super(driver);
     }
 

@@ -1,12 +1,12 @@
 package stqa.litecart.com.Appmanager;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
 
 public class NavigationHelper extends HelperBase {
 
 
-    public NavigationHelper(WebDriver driver) {
+    public NavigationHelper(EventFiringWebDriver driver) {
         super(driver);
     }
 

@@ -1,6 +1,7 @@
 package stqa.litecart.com.Appmanager;
 
 import org.openqa.selenium.*;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
@@ -8,6 +9,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.File;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.Set;
@@ -16,10 +18,10 @@ import java.util.concurrent.TimeUnit;
 import static org.openqa.selenium.support.ui.ExpectedConditions.not;
 
 public class HelperBase {
-    WebDriver driver;
+    EventFiringWebDriver driver;
 
 
-    public HelperBase(WebDriver driver) {
+    public HelperBase(EventFiringWebDriver driver) {
         this.driver = driver;
     }
 
@@ -77,6 +79,7 @@ public class HelperBase {
     }
 
     public void gotoUrl(String urlAddress){
+        setImplicityWait(10);
         driver.get(urlAddress);
     }
 
@@ -161,5 +164,10 @@ public class HelperBase {
         System.out.println(driver.getTitle());
         driver.close();
         driver.switchTo().window(originalWindow);
+    }
+
+    public int getLogsSize(){
+        int size = driver.manage().logs().get("browser").getAll().size();
+        return size;
     }
 }
