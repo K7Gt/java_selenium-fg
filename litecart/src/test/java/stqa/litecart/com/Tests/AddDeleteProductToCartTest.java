@@ -13,9 +13,9 @@ public class AddDeleteProductToCartTest extends TestBase {
 
     @Test
     public void testAddDeleteProductToCart(){
-        app.getShopPageHelper().addSeveralProducts(3);
-        app.getNavigationHelper().gotoCart();
-        app.getShopPageHelper().removeAllProducts(By.cssSelector("ul.shortcuts li"));
+        app.getShopPageHelper().addSeveralProducts(3, app.getProductPageHelper());
+        app.getShopPageHelper().gotoCart();
+        app.getCartPage().removeAllProducts();
     }
 
 }

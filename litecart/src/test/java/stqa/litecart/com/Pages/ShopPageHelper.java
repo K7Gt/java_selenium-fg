@@ -1,8 +1,9 @@
-package stqa.litecart.com.Appmanager;
+package stqa.litecart.com.Pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
+import stqa.litecart.com.Appmanager.HelperBase;
 import stqa.litecart.com.Model.User;
 
 public class ShopPageHelper extends HelperBase {
@@ -59,20 +60,15 @@ public class ShopPageHelper extends HelperBase {
     }
 
 
-    public void addProductToCart() {
+    public void gotoProductPage(ProductPageHelper page) {
         click(By.cssSelector("div#box-most-popular li:nth-child(1)"));
-        if(isElementPresent(By.cssSelector("select[name='options[Size]']"))){
-            selectNthElementInPicklist(By.cssSelector("select[name='options[Size]']"),1);
-        }
-        String value = getWebElement(By.cssSelector("span.quantity")).getAttribute("textContent");
-        click(By.cssSelector("button[name=add_cart_product]"));
-        waitUntilTextChanged(By.cssSelector("span.quantity"),value);
-        click(By.cssSelector("div#logotype-wrapper"));
+        page.addProductToCart();
+
     }
 
-    public void addSeveralProducts(int numberOfProducts){
+    public void addSeveralProducts(int numberOfProducts, ProductPageHelper page){
         for (int i = 0; i < numberOfProducts; i++) {
-            addProductToCart();
+            gotoProductPage(page);
         }
     }
 
@@ -80,13 +76,9 @@ public class ShopPageHelper extends HelperBase {
 //        waitAndClick(locator);
 //    }
 
-    public void removeAllProducts(By locator){
-        int i = getListOfElements(By.cssSelector("ul.shortcuts li")).size();
-        while (i != 0){
-            WebElement element = getWebElement(By.cssSelector("div#order_confirmation-wrapper table"));
-            waitAndClick(By.cssSelector("button[name=remove_cart_item]"));
-            stalenessWaitOf(element);
-            i--;
-        }
+    public void gotoCart() {
+        click(By.cssSelector("div#cart"));
     }
+
+
 }

@@ -1,26 +1,27 @@
+import net.lightbody.bmp.BrowserMobProxy;
+import net.lightbody.bmp.BrowserMobProxyServer;
+import net.lightbody.bmp.client.ClientUtil;
+import net.lightbody.bmp.core.har.Har;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Proxy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.logging.LogEntry;
-import org.openqa.selenium.logging.Logs;
+import org.openqa.selenium.remote.CapabilityType;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.events.AbstractWebDriverEventListener;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import static org.openqa.selenium.support.ui.ExpectedConditions.titleIs;
-
 
 public class GoogleTest {
 
-    private EventFiringWebDriver driver;
+    private WebDriver driver;
     private WebDriverWait wait;
+    public BrowserMobProxy proxy;
 
     public static class MyListener extends AbstractWebDriverEventListener{
         @Override
@@ -49,19 +50,29 @@ public class GoogleTest {
 
     @Before
     public void start(){
-        driver = new EventFiringWebDriver(new ChromeDriver());
+        proxy = new BrowserMobProxyServer();
+        proxy.start(0);
+        Proxy seleniumProxy = ClientUtil.createSeleniumProxy(proxy);
+        DesiredCapabilities capabilities = new DesiredCapabilities();
+        capabilities.setCapability(CapabilityType.PROXY, seleniumProxy);
+
+//        driver = new EventFiringWebDriver(new ChromeDriver(capabilities));
+        driver = new ChromeDriver(capabilities);
         driver.manage().window().maximize();
         wait = new WebDriverWait(driver,10);
+
+
+
 
     }
 
     @Test
     public void getLogs(){
-        driver.get("https://onliner.by");
-        System.out.println(driver.manage().logs().getAvailableLogTypes());
-        List<LogEntry> logs = driver.manage().logs().get("browser").getAll();
-        System.out.println(logs.size());
-        System.out.println(logs.size());
+        proxy.newHar();
+        driver.get("http://www.selenium2.ru");
+        Har har = proxy.endHar();
+        har.getLog().getEntries().forEach(l -> System.out.println(l.getResponse().getStatus() + ":" + l.getRequest().getUrl()));
+
 
     }
 

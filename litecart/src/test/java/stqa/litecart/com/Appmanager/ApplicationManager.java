@@ -1,6 +1,5 @@
 package stqa.litecart.com.Appmanager;
 
-import com.google.common.io.Files;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -8,20 +7,24 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.events.AbstractWebDriverEventListener;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
-import java.io.File;
-import java.io.IOException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
+import stqa.litecart.com.Pages.CartPageHelper;
+import stqa.litecart.com.Pages.ProductPageHelper;
+import stqa.litecart.com.Pages.ShopPageHelper;
 
 public class ApplicationManager {
     private HelperBase helperBase;
     private NavigationHelper navigationHelper;
     private ShopPageHelper shopPageHelper ;
     private AdminPageHelper adminPageHelper;
+    private CartPageHelper cartPageHelper;
+    private ProductPageHelper productPageHelper;
+
+
 
     EventFiringWebDriver driver;
     WebDriverWait wait;
+
+
 
     public  static  class MyListener extends AbstractWebDriverEventListener{
         @Override
@@ -61,6 +64,8 @@ public class ApplicationManager {
         adminPageHelper = new AdminPageHelper(driver);
         shopPageHelper = new ShopPageHelper(driver);
         navigationHelper = new NavigationHelper(driver);
+        cartPageHelper = new CartPageHelper(driver);
+        productPageHelper = new ProductPageHelper(driver);
         helperBase = new HelperBase(driver);
     }
 
@@ -85,5 +90,9 @@ public class ApplicationManager {
 
     public HelperBase getHelperBase() {
         return helperBase;
+    }
+    public CartPageHelper getCartPage() {  return cartPageHelper;    }
+    public ProductPageHelper getProductPageHelper() {
+        return productPageHelper;
     }
 }

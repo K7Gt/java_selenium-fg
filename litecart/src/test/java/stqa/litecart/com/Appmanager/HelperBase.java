@@ -33,6 +33,7 @@ public class HelperBase {
 
     public boolean isElementPresent(By locator) {
         try {
+            setImplicityWait(0);
             driver.findElement(locator);
             return true;
         } catch (NoSuchElementException ex){

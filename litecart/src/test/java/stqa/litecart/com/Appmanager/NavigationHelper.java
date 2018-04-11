@@ -19,7 +19,5 @@ public class NavigationHelper extends HelperBase {
         gotoUrl("http://localhost/litecart/");
     }
 
-    public void gotoCart() {
-        click(By.cssSelector("div#cart"));
-    }
+
 }

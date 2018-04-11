@@ -63,89 +63,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../litecart/src/test/java/stqa/litecart/com/Tests/TestBase.java">
+      <file leaf-file-name="AddDeleteProductToCartTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../litecart/src/test/java/stqa/litecart/com/Tests/AddDeleteProductToCartTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ApplicationManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../litecart/src/test/java/stqa/litecart/com/Appmanager/ApplicationManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-476">
-              <caret line="22" column="24" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#853#854#0" expanded="true" />
-                <element signature="e#897#898#0" expanded="true" />
-                <element signature="e#997#998#0" expanded="true" />
-                <element signature="e#1059#1060#0" expanded="true" />
-                <element signature="e#1290#1291#0" expanded="true" />
-                <element signature="e#1328#1329#0" expanded="true" />
-                <element signature="e#1377#1378#0" expanded="true" />
-                <element signature="e#1414#1415#0" expanded="true" />
-                <element signature="e#1467#1468#0" expanded="true" />
-                <element signature="e#1506#1507#0" expanded="true" />
-                <element signature="e#1547#1548#0" expanded="true" />
-                <element signature="e#1580#1581#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LogAbsenceTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../litecart/src/test/java/stqa/litecart/com/Tests/LogAbsenceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminMenuTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../litecart/src/test/java/stqa/litecart/com/Tests/AdminMenuTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="17" column="73" lean-forward="true" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="73" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminPageHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../litecart/src/test/java/stqa/litecart/com/Appmanager/AdminPageHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="108" selection-start-line="108" selection-end-line="108" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#456#457#0" expanded="true" />
-                <element signature="e#485#486#0" expanded="true" />
-                <element signature="e#519#520#0" expanded="true" />
-                <element signature="e#584#585#0" expanded="true" />
-                <element signature="e#615#616#0" expanded="true" />
-                <element signature="e#680#681#0" expanded="true" />
-                <element signature="e#715#716#0" expanded="true" />
-                <element signature="e#776#777#0" expanded="true" />
-                <element signature="e#4181#4182#0" expanded="true" />
-                <element signature="e#4271#4272#0" expanded="true" />
-                <element signature="e#4316#4317#0" expanded="true" />
-                <element signature="e#4365#4366#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoogleTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/GoogleTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="62" column="47" lean-forward="true" selection-start-line="62" selection-start-column="47" selection-end-line="62" selection-end-column="47" />
+            <state relative-caret-position="221">
+              <caret line="17" column="46" lean-forward="true" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -153,20 +75,53 @@
       <file leaf-file-name="HelperBase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../litecart/src/test/java/stqa/litecart/com/Appmanager/HelperBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="81" column="27" selection-start-line="81" selection-start-column="27" selection-end-line="81" selection-end-column="27" />
+            <state relative-caret-position="250">
+              <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#607#608#0" expanded="true" />
-                <element signature="e#643#644#0" expanded="true" />
-                <element signature="e#2471#2472#0" expanded="true" />
-                <element signature="e#2522#2523#0" expanded="true" />
-                <element signature="e#2583#2584#0" expanded="true" />
-                <element signature="e#2634#2635#0" expanded="true" />
-                <element signature="e#2684#2685#0" expanded="true" />
-                <element signature="e#2734#2735#0" expanded="true" />
-                <element signature="e#2955#2956#0" expanded="true" />
-                <element signature="e#3039#3040#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShopPageHelper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../litecart/src/test/java/stqa/litecart/com/Pages/ShopPageHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="72" selection-start-line="72" selection-end-line="72" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#529#530#0" expanded="true" />
+                <element signature="e#609#610#0" expanded="true" />
+                <element signature="e#3163#3164#0" expanded="true" />
+                <element signature="e#3212#3213#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductPageHelper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../litecart/src/test/java/stqa/litecart/com/Pages/ProductPageHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="13" column="71" lean-forward="true" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="71" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApplicationManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../litecart/src/test/java/stqa/litecart/com/Appmanager/ApplicationManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1119">
+              <caret line="95" selection-start-line="95" selection-end-line="95" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2840#2841#0" expanded="true" />
+                <element signature="e#2877#2878#0" expanded="true" />
+                <element signature="e#3208#3209#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -526,9 +481,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6083096280714" />
+        <entry key="$PROJECT_DIR$" value="6085501031864" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="373846520" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="4113655033" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="566444372" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="2489504739" />
         <entry key="$PROJECT_DIR$/../litecart" value="4562339263441" />
@@ -863,7 +818,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/../litecart/src/test/java/LitecartLoginTest.java" />
         <option value="$PROJECT_DIR$/../litecart/src/test/java/LiteCartLoginTest.java" />
         <option value="$PROJECT_DIR$/../litecart/src/test/java/stqa/litecart/com/AdminMenuTest.java" />
@@ -892,20 +846,26 @@
         <option value="$PROJECT_DIR$/../litecart/src/test/java/stqa/litecart/com/Tests/NewWindowLinksTest.java" />
         <option value="$PROJECT_DIR$/../litecart/src/test/java/stqa/litecart/com/Tests/ProductStickerTest.java" />
         <option value="$PROJECT_DIR$/../litecart/src/test/java/stqa/litecart/com/Tests/AdminMenuTest.java" />
-        <option value="$PROJECT_DIR$/../litecart/src/test/java/stqa/litecart/com/Tests/AddDeleteProductToCartTest.java" />
-        <option value="$PROJECT_DIR$/../litecart/src/test/java/stqa/litecart/com/Appmanager/ApplicationManager.java" />
         <option value="$PROJECT_DIR$/../litecart/src/test/java/stqa/litecart/com/Appmanager/ShopPageHelper.java" />
-        <option value="$PROJECT_DIR$/../litecart/src/test/java/stqa/litecart/com/Appmanager/NavigationHelper.java" />
         <option value="$PROJECT_DIR$/../litecart/src/test/java/stqa/litecart/com/Appmanager/AdminPageHelper.java" />
-        <option value="$PROJECT_DIR$/../litecart/src/test/java/stqa/litecart/com/Appmanager/HelperBase.java" />
         <option value="$PROJECT_DIR$/../litecart/src/test/java/stqa/litecart/com/Tests/LogAbsenceTest.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/GoogleTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/RemoteTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ProxyTest.java" />
+        <option value="$PROJECT_DIR$/../litecart/src/test/java/stqa/litecart/com/Appmanager/NavigationHelper.java" />
+        <option value="$PROJECT_DIR$/../litecart/src/test/java/stqa/litecart/com/Pages/CarPageHelper.java" />
+        <option value="$PROJECT_DIR$/../litecart/src/test/java/stqa/litecart/com/Appmanager/ApplicationManager.java" />
+        <option value="$PROJECT_DIR$/../litecart/src/test/java/stqa/litecart/com/Pages/ShopPageHelper.java" />
+        <option value="$PROJECT_DIR$/../litecart/src/test/java/stqa/litecart/com/Tests/AddDeleteProductToCartTest.java" />
+        <option value="$PROJECT_DIR$/../litecart/src/test/java/stqa/litecart/com/Pages/ProductPageHelper.java" />
+        <option value="$PROJECT_DIR$/../litecart/src/test/java/stqa/litecart/com/Appmanager/HelperBase.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="189" />
-    <option name="y" value="112" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="351" />
+    <option name="y" value="74" />
     <option name="width" value="1464" />
     <option name="height" value="940" />
   </component>
@@ -915,46 +875,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="java-selenium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-selenium-fg" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-selenium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-selenium-fg" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-selenium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-selenium-fg" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-selenium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-selenium-fg" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-selenium" type="b2602c69:ProjectViewProjectNode" />
               <item name="litecart" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="java-selenium" type="b2602c69:ProjectViewProjectNode" />
               <item name="litecart" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-selenium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="litecart" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="java-selenium" type="b2602c69:ProjectViewProjectNode" />
@@ -1002,23 +935,38 @@
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="Pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-selenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="litecart" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="Tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-selenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="litecart" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15625" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -1046,7 +994,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GoogleTest">
+  <component name="RunManager" selected="JUnit.AddDeleteProductToCartTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -1065,29 +1013,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="stqa.litecart.com.Tests" />
       <option name="MAIN_CLASS_NAME" value="stqa.litecart.com.Tests.AddDeleteProductToCartTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/../litecart" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="AdminMenuTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="litecart_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stqa.litecart.com.Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="stqa.litecart.com.Tests" />
-      <option name="MAIN_CLASS_NAME" value="stqa.litecart.com.Tests.AdminMenuTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -1139,23 +1064,34 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="NewWindowLinksTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="litecart_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stqa.litecart.com.Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="ProxyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-selenium_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="stqa.litecart.com.Tests" />
-      <option name="MAIN_CLASS_NAME" value="stqa.litecart.com.Tests.NewWindowLinksTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProxyTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/../litecart" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="RemoteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-selenium_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RemoteTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
@@ -1214,19 +1150,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.AddDeleteProductToCartTest" />
-      <item itemvalue="JUnit.NewWindowLinksTest" />
-      <item itemvalue="JUnit.AdminMenuTest" />
       <item itemvalue="JUnit.GoogleTest" />
       <item itemvalue="JUnit.LogAbsenceTest" />
+      <item itemvalue="JUnit.RemoteTest" />
+      <item itemvalue="JUnit.ProxyTest" />
+      <item itemvalue="JUnit.AddDeleteProductToCartTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AddDeleteProductToCartTest" />
+        <item itemvalue="JUnit.ProxyTest" />
+        <item itemvalue="JUnit.RemoteTest" />
         <item itemvalue="JUnit.GoogleTest" />
         <item itemvalue="JUnit.LogAbsenceTest" />
-        <item itemvalue="JUnit.NewWindowLinksTest" />
-        <item itemvalue="JUnit.AddDeleteProductToCartTest" />
-        <item itemvalue="JUnit.AdminMenuTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1244,74 +1180,74 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LogAbsenceTest - 2018.04.07 at 19h 46m 09s.xml">
-      <configuration name="LogAbsenceTest" configurationId="JUnit" />
+    <history-entry file="RemoteTest - 2018.04.08 at 20h 15m 50s.xml">
+      <configuration name="RemoteTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LogAbsenceTest - 2018.04.07 at 19h 46m 31s.xml">
-      <configuration name="LogAbsenceTest" configurationId="JUnit" />
+    <history-entry file="RemoteTest - 2018.04.08 at 20h 16m 49s.xml">
+      <configuration name="RemoteTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LogAbsenceTest - 2018.04.07 at 19h 48m 29s.xml">
-      <configuration name="LogAbsenceTest" configurationId="JUnit" />
+    <history-entry file="RemoteTest - 2018.04.08 at 20h 25m 23s.xml">
+      <configuration name="RemoteTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LogAbsenceTest - 2018.04.07 at 19h 48m 54s.xml">
-      <configuration name="LogAbsenceTest" configurationId="JUnit" />
+    <history-entry file="RemoteTest - 2018.04.08 at 20h 26m 31s.xml">
+      <configuration name="RemoteTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LogAbsenceTest - 2018.04.07 at 19h 54m 35s.xml">
-      <configuration name="LogAbsenceTest" configurationId="JUnit" />
+    <history-entry file="RemoteTest - 2018.04.08 at 20h 27m 29s.xml">
+      <configuration name="RemoteTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LogAbsenceTest - 2018.04.07 at 19h 56m 20s.xml">
-      <configuration name="LogAbsenceTest" configurationId="JUnit" />
+    <history-entry file="ProxyTest - 2018.04.08 at 22h 15m 03s.xml">
+      <configuration name="ProxyTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LogAbsenceTest - 2018.04.07 at 19h 56m 55s.xml">
-      <configuration name="LogAbsenceTest" configurationId="JUnit" />
+    <history-entry file="AddDeleteProductToCartTest - 2018.04.11 at 23h 13m 23s.xml">
+      <configuration name="AddDeleteProductToCartTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LogAbsenceTest - 2018.04.07 at 19h 57m 37s.xml">
-      <configuration name="LogAbsenceTest" configurationId="JUnit" />
+    <history-entry file="AddDeleteProductToCartTest - 2018.04.11 at 23h 14m 00s.xml">
+      <configuration name="AddDeleteProductToCartTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LogAbsenceTest - 2018.04.07 at 19h 57m 52s.xml">
-      <configuration name="LogAbsenceTest" configurationId="JUnit" />
+    <history-entry file="AddDeleteProductToCartTest - 2018.04.11 at 23h 18m 41s.xml">
+      <configuration name="AddDeleteProductToCartTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LogAbsenceTest - 2018.04.07 at 20h 01m 18s.xml">
-      <configuration name="LogAbsenceTest" configurationId="JUnit" />
+    <history-entry file="AddDeleteProductToCartTest - 2018.04.11 at 23h 21m 06s.xml">
+      <configuration name="AddDeleteProductToCartTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="189" y="112" width="1464" height="940" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="sbt" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007123" side_tool="true" weight="0.3275218" />
-      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="right" id="sbt" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5007123" side_tool="true" weight="0.3275218" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info anchor="bottom" id="Build" order="10" sideWeight="0.49928775" weight="0.32723358" />
+      <window_info anchor="bottom" id="Build" order="11" sideWeight="0.49928775" weight="0.32627645" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5728518" />
-      <window_info anchor="right" id="Code Iris" order="5" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.49407965" />
+      <window_info anchor="right" id="Code Iris" order="6" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32919255" />
-      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32723358" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
       <window_info id="Image Layers" order="6" />
-      <window_info anchor="bottom" id="Regex Tester" order="8" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.497151" visible="true" weight="0.40971357" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4994618" visible="true" weight="0.26923078" />
-      <window_info anchor="bottom" id="sbt-shell-toolwindow" />
-      <window_info anchor="right" id="Gradle" order="7" weight="0.32942432" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="bottom" id="Regex Tester" order="9" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.497151" weight="0.40904197" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4994618" visible="true" weight="0.20415778" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="7" />
+      <window_info anchor="right" id="Gradle" order="8" weight="0.32763532" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info id="Favorites" order="5" sideWeight="0.50053823" side_tool="true" weight="0.20149253" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32995737" />
+      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32995737" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -1327,69 +1263,76 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../litecart/src/test/java/stqa/litecart/com/ForRefactoring/RegistrationLoginTest.java</url>
+          <url />
           <line>66</line>
           <properties />
           <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../litecart/src/test/java/stqa/litecart/com/ForRefactoring/AddNewProductTest.java</url>
+          <url />
           <line>61</line>
           <properties />
           <option name="timeStamp" value="62" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../litecart/src/test/java/stqa/litecart/com/Tests/LiteCartLoginTest.java</url>
+          <url />
           <line>9</line>
           <properties />
           <option name="timeStamp" value="64" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../litecart/src/test/java/stqa/litecart/com/Tests/AddNewProductTest.java</url>
+          <url />
           <line>48</line>
           <properties />
           <option name="timeStamp" value="66" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../litecart/src/test/java/stqa/litecart/com/Tests/NewWindowLinksTest.java</url>
+          <url />
           <line>24</line>
           <properties />
           <option name="timeStamp" value="79" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url />
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url />
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/../litecart/src/test/java/stqa/litecart/com/Appmanager/ShopPageHelper.java</url>
+          <url />
           <line>82</line>
-          <properties class="stqa.litecart.com.Appmanager.ShopPageHelper" method="removeAllProducts">
+          <properties class="stqa.litecart.com.Pages.ShopPageHelper">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="74" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url />
+          <line>69</line>
+          <properties class="GoogleTest" method="getLogs">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url />
+          <line>12</line>
+          <properties class="stqa.litecart.com.Pages.ProductPageHelper" method="addProductToCart">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="90" />
+      <option name="time" value="98" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/23.6-jre/e9e7eabe1dd1ad3eddaa633acf01d239ebbfa887/guava-23.6-jre-sources.jar!/com/google/common/collect/ImmutableBiMapFauxverideShim.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/23.6-jre/e9e7eabe1dd1ad3eddaa633acf01d239ebbfa887/guava-23.6-jre-sources.jar!/com/google/common/collect/ImmutableMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="495" selection-start-line="495" selection-end-line="495" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/23.6-jre/e9e7eabe1dd1ad3eddaa633acf01d239ebbfa887/guava-23.6-jre-sources.jar!/com/google/common/collect/SingletonImmutableBiMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-remote-driver/3.10.0/5d2b6d4e74a8e2904beb39e37ba2fba95f36cbfc/selenium-remote-driver-3.10.0-sources.jar!/org/openqa/selenium/remote/ErrorHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -1467,58 +1410,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="799">
           <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
-          <folding>
-            <element signature="imports" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/BlockJUnit4ClassRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runner/JUnitCore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="141" selection-start-line="141" selection-end-line="141" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="370" selection-start-line="370" selection-end-line="370" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/statements/RunBefores.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/statements/InvokeMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/statements/RunAfters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
@@ -1550,52 +1441,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../litecart/screen1523116633582.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../litecart/screen1523116766553.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/../litecart/src/test/java/stqa/litecart/com/Tests/RegistrationLoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
           <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../litecart/src/test/java/stqa/litecart/com/Appmanager/ShopPageHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#337#338#0" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-            <element signature="e#529#530#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#636#637#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../litecart/src/test/java/stqa/litecart/com/Appmanager/NavigationHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#237#238#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#421#422#0" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
-            <element signature="e#500#501#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1626,23 +1475,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-          <folding>
-            <element signature="e#1657#1658#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../litecart/src/test/java/stqa/litecart/com/Tests/AddDeleteProductToCartTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../litecart/src/test/java/stqa/litecart/com/Tests/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1667,74 +1499,196 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../litecart/src/test/java/stqa/litecart/com/Appmanager/ApplicationManager.java">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-476">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="24" />
+        <state relative-caret-position="222">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/GoogleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="21" selection-start-line="21" selection-end-line="22" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#853#854#0" expanded="true" />
-            <element signature="e#897#898#0" expanded="true" />
-            <element signature="e#997#998#0" expanded="true" />
-            <element signature="e#1059#1060#0" expanded="true" />
-            <element signature="e#1290#1291#0" expanded="true" />
-            <element signature="e#1328#1329#0" expanded="true" />
-            <element signature="e#1377#1378#0" expanded="true" />
-            <element signature="e#1414#1415#0" expanded="true" />
-            <element signature="e#1467#1468#0" expanded="true" />
-            <element signature="e#1506#1507#0" expanded="true" />
-            <element signature="e#1547#1548#0" expanded="true" />
-            <element signature="e#1580#1581#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../litecart/src/test/java/stqa/litecart/com/Appmanager/HelperBase.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/RemoteTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="81" column="27" selection-start-line="81" selection-start-column="27" selection-end-line="81" selection-end-column="27" />
+        <state relative-caret-position="388">
+          <caret line="45" column="60" lean-forward="true" selection-start-line="32" selection-start-column="3" selection-end-line="45" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#607#608#0" expanded="true" />
-            <element signature="e#643#644#0" expanded="true" />
-            <element signature="e#2471#2472#0" expanded="true" />
-            <element signature="e#2522#2523#0" expanded="true" />
-            <element signature="e#2583#2584#0" expanded="true" />
-            <element signature="e#2634#2635#0" expanded="true" />
-            <element signature="e#2684#2685#0" expanded="true" />
-            <element signature="e#2734#2735#0" expanded="true" />
-            <element signature="e#2955#2956#0" expanded="true" />
-            <element signature="e#3039#3040#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ProxyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../litecart/src/test/java/stqa/litecart/com/Appmanager/NavigationHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../litecart/src/test/java/stqa/litecart/com/Pages/CartPageHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/BlockJUnit4ClassRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runner/JUnitCore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="141" selection-start-line="141" selection-end-line="141" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="370" selection-start-line="370" selection-end-line="370" />
+          <folding>
+            <element signature="e#2922#2923#0" expanded="true" />
+            <element signature="e#2966#2967#0" expanded="true" />
+            <element signature="e#10310#10449#0" expanded="true" />
+            <element signature="e#10448#10449#0" expanded="true" />
+            <element signature="e#11040#11204#0" expanded="true" />
+            <element signature="e#11203#11204#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/statements/RunAfters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/statements/RunBefores.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/statements/InvokeMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="e#1464#1658#0" expanded="true" />
+            <element signature="e#1657#1658#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../litecart/src/test/java/stqa/litecart/com/Pages/ShopPageHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#3163#3164#0" expanded="true" />
+            <element signature="e#3212#3213#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../litecart/src/test/java/stqa/litecart/com/Appmanager/AdminPageHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
+        <state relative-caret-position="1459">
           <caret line="108" selection-start-line="108" selection-end-line="108" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#584#585#0" expanded="true" />
-            <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#680#681#0" expanded="true" />
-            <element signature="e#715#716#0" expanded="true" />
-            <element signature="e#776#777#0" expanded="true" />
-            <element signature="e#4181#4182#0" expanded="true" />
-            <element signature="e#4271#4272#0" expanded="true" />
-            <element signature="e#4316#4317#0" expanded="true" />
-            <element signature="e#4365#4366#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/GoogleTest.java">
+    <entry file="file://$PROJECT_DIR$/../litecart/src/test/java/stqa/litecart/com/Pages/ProductPageHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="62" column="47" lean-forward="true" selection-start-line="62" selection-start-column="47" selection-end-line="62" selection-end-column="47" />
+        <state relative-caret-position="173">
+          <caret line="13" column="71" lean-forward="true" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../litecart/src/test/java/stqa/litecart/com/Appmanager/ApplicationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1119">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2840#2841#0" expanded="true" />
+            <element signature="e#2877#2878#0" expanded="true" />
+            <element signature="e#3208#3209#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../litecart/src/test/java/stqa/litecart/com/Appmanager/HelperBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../litecart/src/test/java/stqa/litecart/com/Tests/AddDeleteProductToCartTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="46" lean-forward="true" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -1755,7 +1709,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1790,7 +1744,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>java-selenium_main|java-selenium</last-edited>
+          <last-edited>java-selenium_test|java-selenium</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1815,11 +1769,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Gradle: com.google.code.findbugs:jsr305:1.3.9</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.25917685" />
               </list>
             </option>
           </splitter-proportions>
